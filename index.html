@@ -11,16 +11,15 @@
       <nav>
         <p class="logo-1"><span class="bold">A.A.A.</span></p>
         <ul>
-          <li><a href="">↗ ANSØGNING</a></li>
-          <li><a href="">↗ PROJEKTER</a></li>
-          <li><a href="">↗ KONTAKT</a></li>
+          <!-- Husk at tilføje den rigtige -->
+          <li><a href="img/praktik-kickstart.pdf" target="_blank">↗ ANSØGNING</a></li>
+          <li><a href="#projekt">↗ PROJEKTER</a></li>
+          <li><a href="#kontakt">↗ KONTAKT</a></li>
         </ul>
       </nav>
     </header>
 
     <main>
-      <!-- <div class="side-line"></div> -->
-
       <section class="hej">
         <img class="full" src="img/full-pic.avif" alt="" />
         <h1>
@@ -30,13 +29,13 @@
         </h1>
       </section>
 
-      <section>
+      <section class="om-mig">
         <h2>/Lidt om mig</h2>
 
         <div>
-          <img src="img/ek.avif" alt="" />
+          <img class="intro" src="img/intro-pic.avif" alt="" />
 
-          <div>
+          <article class="text">
             <p>
               Jeg er Multimediedesign-studerende på 3. semester med en stor interesse for den kreative verden, specielt design som har været et ønske at arbejde inde for. Jeg ser frem til at udvide mine færdigheder i multimediedesign og finde det
               felt, der bedst afspejler mine evner og ambitioner. I fremtiden drømmer jeg om at arbejde med webdesign, hvor jeg kan skabe visuelle løsninger og strategiske koncepter. Under min uddannelse vil jeg forbedre mine evner til at kode
@@ -47,18 +46,20 @@
             </p>
             <p>
               Selvom jeg har nævnt nogle få aspekter af min baggrund og mine interesser, er jeg glad for at sige, at jeg kun har meget mere at byde på! Jeg er ivrig efter at lære nye færdigheder og nysgerrig på de muligheder, der ligger foran mig.
-              Med en passion for kreativitet og innovation er jeg klar til at tage imod nye udfordringer og finde måder at skille mig ud på. Jeg ser frem til at udvide min viden og erfaring.
+              Med en passion for kreativitet og innovation er jeg klar til at tage imod nye udfordringer og finde måder at skille mig ud på. Jeg ser frem til forsat at udvide min viden og erfaring.
             </p>
-          </div>
+          </article>
 
-          <img src="img/intro-pic.avif" alt="" />
+          <img class="ek" src="img/ek.avif" alt="" />
         </div>
       </section>
 
-      <section>
-        <h2>/projekter</h2>
+      <section id="projekt">
+        <div class="side-line">
+          <h2>/projekter</h2>
+        </div>
 
-        <div>
+        <article>
           <div>
             <img src="img/tmb-group.avif" alt="" />
             <h3>
@@ -66,7 +67,7 @@
               Redesign af <br />
               The Matcha Bike CPH
             </h3>
-            <a href="">link</a>
+            <a href="https://t10-mundtlig-eksamen.netlify.app/" target="_blank">link</a>
           </div>
 
           <div>
@@ -76,7 +77,7 @@
               Redesign af <br />
               Lammehave Økologi
             </h3>
-            <a href="">link</a>
+            <a href="https://lammehave-oekologi.netlify.app/" target="_blank">link</a>
           </div>
 
           <div>
@@ -86,58 +87,64 @@
               Dynamisk website <br />
               BAJA Beauty
             </h3>
-            <a href="">link</a>
+            <a href="https://t8-baja-beauty.netlify.app/" target="_blank">link</a>
           </div>
-        </div>
+        </article>
       </section>
 
-      <section>
-        <h2>/erfaringer</h2>
+      <div class="line">
+        <section class="erfaring">
+          <h2>/erfaringer</h2>
 
-        <div>
-          <img src="img/half-pic.avif" alt="" />
+          <article>
+            <img class="half" src="img/half-pic.avif" alt="" />
 
-          <div>
-            <h4>Jeg kan følgende:</h4>
+            <div>
+              <h4>Jeg kan følgende:</h4>
 
-            <!-- Husk at fylde ind med reele færdigheder -->
-            <ul>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-            </ul>
-          </div>
-        </div>
-      </section>
+              <ul>
+                <li>Arbejde i <span class="bold">Figma, Canva, Adobe Illustrator & Photoshop</span> for at skabe visuelle designs.</li>
+                <li>Kode med <span class="bold">HTML, CSS, JavaScript & Astro</span> for at bygge responsive webapplikationer.</li>
+                <li>Designe webløsning, herunder bruge diverse designmetoder/teknikker som b.la. desk research, BMC, <span class="bold">moodboard og wireframes</span>.</li>
+                <li>Anvende <span class="bold">GitHub </span>til effektivt samarbejde og dokumentation af projektudvilking samt uploade et website bl.a. gennem <span class="bold">Netlify</span>.</li>
+                <li>Konceptudvikle, herunder skabe <span class="bold">prototyper og iterativ udvikling</span> baseret på bruger- og teamfeedback.</li>
+                <li>Udvikle af <span class="bold">grafiske identiteter</span>, herunder designsystemer med bl.a. logos, farverskemaer og typografi.</li>
+                <li>Skabe bud på <span class="bold">digital marketing</span> med grundlæggende indsigt i SEO og brug af SoMe til promotion af digitale produkter.</li>
+                <li>Arbejde ud fra Design Thinking & Double Diamond med fokus på brugercenterert design og løbende <span class="bold">brugertest </span>for optimeringen af brugeroplevelsen.</li>
+                <li><span class="bold">Effektivt anvende af AI</span> som sparringspartner til f.eks. at håndtere idéudvilking, fejlsøgning og automatisering.</li>
+                <li>
+                  Identificere udfordringer og kreativt finde løsninger på komplekse opgaver og problemer. Analysere designs og brugerfeedback for at forbedre beslutningstagning. Koordinere opgaver og sikre overholdelse af deadline i gruppeprojekter.
+                </li>
+                <li>m.m.</li>
+              </ul>
+            </div>
+          </article>
+        </section>
+      </div>
 
-      <section>
+      <section id="kontakt">
         <h2>/Kontakt</h2>
 
-        <div>
+        <div class="kontakter">
           <div>
             <p>
-              <span class="bold">Email:</span> <br />akualovesn@gmail.com <br />
-              el. <br />akap0001@stud.ek.dk
+              <span class="bold">Email:</span> <br />
+              <a class="email" href="mailto:akualovesn@gmail.com">akualovesn@gmail.com</a>
+              <br />
+              el. <br /><a class="email" href="mailto:akap0001@stud.ek.dk">akap0001@stud.ek.dk</a>
             </p>
           </div>
 
           <div>
             <p><span class="bold">LinkedIn:</span> <br />Akua A. Appiah</p>
-            <a href="">link</a>
+            <a href="https://www.linkedin.com/in/akua-a-appiah-9b3b973b2/" target="_blank">link</a>
           </div>
         </div>
       </section>
     </main>
 
     <footer>
-      <li><a href="">↗ANSØGNING</a></li>
+      <a href="../../T12/praktik-kickstart.pdf" target="_blank">↗ANSØGNING</a>
       <p class="logo-2"><span class="bold">a.a.a.</span></p>
     </footer>
   </body>
