@@ -158,20 +158,30 @@ p {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+
     padding-top: 2rlh;
-    padding-bottom: 4.5rlh;
+    padding-bottom: 3.5rlh;
 }
 article img {
     width: auto;
     height: 200px;
 }
 h3 {
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 600;
 }
 a {
     font-size: 12px;
     font-style: italic;
+}
+
+.small {
+    font-size: 12px;
+    
+    padding-top: 1rlh;
+}
+.small li {
+    line-height: 1.5rlh;
 }
 
 
