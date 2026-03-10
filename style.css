@@ -176,11 +176,14 @@ a {
 }
 
 .small {
-    font-size: 12px;
-    
     padding-top: 1rlh;
 }
+.small p {
+    font-size: 13px;
+    margin-bottom: .5rlh;
+}
 .small li {
+    font-size: 12px;
     line-height: 1.5rlh;
 }
 
